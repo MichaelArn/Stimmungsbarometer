@@ -72,8 +72,6 @@
                     clickBox5();
                     setIpDb();
                 }
-            ?>
-            <?php
 
                 function setIpDb()
                 {
