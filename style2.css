@@ -154,27 +154,27 @@ a:hover {
 }
 
 #content-box1:hover{
-    background-color: rgba(146, 215, 0, 0.2);
+    background-color: rgba(50, 50, 50, 0.2);
     border-radius: 15px;
 }
 
 #content-box2:hover{
-    background-color: rgba(146, 215, 0, 0.2);
+    background-color: rgba(50, 50, 50, 0.2);
     border-radius: 15px;
 }
 
 #content-box3:hover{
-    background-color: rgba(146, 215, 0, 0.2);
+    background-color: rgba(50, 50, 50, 0.2);
     border-radius: 15px;
 }
 
 #content-box4:hover{
-    background-color: rgba(146, 215, 0, 0.2);
+    background-color: rgba(50, 50, 50, 0.2);
     border-radius: 15px;
 }
 
 #content-box5:hover{
-    background-color: rgba(146, 215, 0, 0.2);
+    background-color: rgba(50, 50, 50, 0.2);
     
     border-radius: 15px;
 }
