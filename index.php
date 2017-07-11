@@ -21,6 +21,7 @@
                 </div>
             </nav>
         </div>
+        <div id="coverpage" class"show">
             <div id="hauptelement">
                 <div id="frame">
                     <img src="images/blj.png" alt="BLJ" id="picture">
@@ -117,6 +118,7 @@
                 }
 
             ?>
+        </div>
     </body>
 </html>
 
