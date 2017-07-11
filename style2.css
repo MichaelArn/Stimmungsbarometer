@@ -1,0 +1,239 @@
+
+nav {   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 0;
+    
+}
+
+nav ul {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li { 
+    
+    list-style: none;
+    
+}
+
+#frame{
+    text-align: center;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffb74d;
+    text-decoration: none;
+    background-color: #311b92;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#page {
+    background-image: url("images/nav1.jpg");
+    width: 100%;
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+}
+
+
+#box {
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 15vh;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-box{
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    
+    /*box-shadow: 10px 10px 20px black;*/
+    /*border-right: 1px #311b92 solid;
+    
+    border-top: 1px #311b92 solid;
+    border-bottom: 1px #311b92 solid;*/
+}
+
+/*.content-box:hover{
+    transition: 1s;
+    box-shadow: none;
+}*/
+
+
+
+#picture{
+    opacity: 0.4;
+    /*min-width: 200px;*/
+    max-width: 500px;
+    height: auto;
+    transform: rotate(30deg);
+    margin-top: 0;
+    
+}
+
+#hauptelement{
+    top: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1100px){
+    #box{
+        display: flex;
+        width: 202px;
+        flex-direction: column;
+        justify-content: space-around;
+        top: -5vh;
+              
+    }
+    .content-box{
+        width: 200px;
+        height: 200px;
+        /*border-right: 1px #311b92 solid;
+        border-bottom: 1px #311b92 solid;
+        border-left: 1px #311b92 solid;*/
+        
+        
+    }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100% !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li:first-of-type{
+        margin-bottom: 6vh;
+    }
+    nav ul li:last-of-type{
+        margin-top: 6vh;
+    }
+
+    body {
+        overflow: scroll !important;
+    }
+
+}
+
+
+#content-box1{
+    background-image: url('images/1.png');
+    background-size: 100% 100%;
+}
+
+#content-box1:hover{
+    background-color: rgba(146, 215, 0, 0.2);
+    border-radius: 15px;
+}
+
+#content-box2:hover{
+    background-color: rgba(146, 215, 0, 0.2);
+    border-radius: 15px;
+}
+
+#content-box3:hover{
+    background-color: rgba(146, 215, 0, 0.2);
+    border-radius: 15px;
+}
+
+#content-box4:hover{
+    background-color: rgba(146, 215, 0, 0.2);
+    border-radius: 15px;
+}
+
+#content-box5:hover{
+    background-color: rgba(146, 215, 0, 0.2);
+    
+    border-radius: 15px;
+}
+
+#content-box2{
+    background-image: url('images/2.png');
+    background-size: 100% 100%;
+}
+
+#content-box3{
+    background-image: url('images/3.png');
+    background-size: 100% 100%;
+}
+
+#content-box4{
+    background-image: url('images/4.png');
+    background-size: 100% 100%;
+}
+
+#content-box5{
+    background-image: url('images/5.png');
+    background-size: 100% 100%;
+}
+
+.font{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#content-auswertung {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgray;
+    height: 65vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+body{
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+#adminseite{
+    position: absolute;
+    /*width: 400px;
+    height: 200px;*/
+    z-index: 15;
+    top: 35%;
+    left: 45%;
+    margin: -100px 0 0 -150px;
+    
+}
+
+#adminsubmit{
+    margin-top: 3%;
+    margin-left: 80%;
+}
